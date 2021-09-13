@@ -1,0 +1,22 @@
+{
+  "name": "clock",
+  "version": "1.0.0",
+  "description": "Contents: \r - initialise project using ``npm init``\r - what is package.json\r - semantic versioning\r - what special characters used mean in package versioning\r - node_modules\r - difference between dependencies and development dependencies\r - browser app vs server package\r - package-lock.json (or yarn.lock) and what this does\r - npm scripts\r - purpose of .bin folder (and executables)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mark-Cooper-Janssen-Vooles/understanding_npm.git"
+  },
+  "author": "mark",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mark-Cooper-Janssen-Vooles/understanding_npm/issues"
+  },
+  "homepage": "https://github.com/Mark-Cooper-Janssen-Vooles/understanding_npm#readme",
+  "dependencies": {
+    "moment": "2.29.1"
+  }
+}

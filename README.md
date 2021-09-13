@@ -94,6 +94,9 @@ Development Dependencies
 
 
 Add package as dependency or devDependency? 
+- Are you building browser app or server package? 
+  - i.e. a browser app must have an html file
+  - server package has no html files - i.e. semver, browserslist are server packages. 
 - 
 
 
