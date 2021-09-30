@@ -241,9 +241,3 @@ Other default npm scripts:
 - For windows:
   - file must have an extension
   - the .bin files will now have .cmd or .ps1 
-
-
-===
-
-
-add this repo to the frontend repo 
