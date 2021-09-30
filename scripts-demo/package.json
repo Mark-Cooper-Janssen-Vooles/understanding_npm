@@ -1,0 +1,19 @@
+{
+  "name": "scripts-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "node ./prestart.js",
+    "start": "node ./hmm.js",
+    "custom": "echo \"Here is a custom script\"",
+    "custom2": "node ./src/customScript.js",
+    "all": "npm-run-all --parallel start custom custom2"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "colors": "1.4.0"
+  }
+}
